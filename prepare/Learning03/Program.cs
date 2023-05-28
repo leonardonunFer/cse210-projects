@@ -4,17 +4,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Console.WriteLine("Hello Learning03 World!");
+        
 
-        // Step 5 Getters and Setters
-        // Fraction f1 = new Fraction();
-        // f1.SetTop(3);
-        // f1.SetBottom(4);
-
-        // Console.WriteLine(f1.GetTop());
-        // Console.WriteLine(f1.GetBottom());
-
-        // Step 6 return methods
+        /* The code is creating instances of the `Fraction` class and calling its methods to print out
+        the fraction as a string and its decimal value. */
+        
         Fraction f1 = new Fraction();
         Console.WriteLine(f1.GetFractionString());
         Console.WriteLine(f1.GetDecimalValue());

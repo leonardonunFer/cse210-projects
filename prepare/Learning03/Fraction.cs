@@ -5,19 +5,18 @@ public class Fraction
     private int _top = 0;
     private int _bottom = 0;
 
-    // Constructor with no parameters initializes to 1/1
     public Fraction()
     {
         _top = 1;
         _bottom = 1;
     }
-    // Constructor with one parameters for top and initializes bottom to 1
+    
     public Fraction(int wholeNumber)
     {
         _top = wholeNumber;
         _bottom = 1;
     }
-    // Constructor with two parameters for top and bottom
+    
     public Fraction(int top, int bottom)
     {
         _top = top;
